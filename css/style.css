@@ -243,11 +243,12 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 100px;
 }
 .fh5co-nav ul li.btn-cta a:hover span {
-  -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+/*  -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
-}
+*/}
 .fh5co-nav ul li.active > a {
+  color: red;
   color: #fff !important;
 }
 
@@ -340,7 +341,8 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.0);   /* background color */
+  /*background: rgba(0, 0, 0, 0.4);   */
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -1208,7 +1210,8 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: black;
+  /*background: black;*/
+  background: rgba(0,0,0,0.5);
   top: 0;
   right: 0;
   top: 0;
@@ -1369,10 +1372,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
-  background: #fff;
+  background: #fff;   /* icon color */
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #fff;
+  background: #fff;   /* icon color */
 }
 
 .fh5co-nav-toggle i::before {
